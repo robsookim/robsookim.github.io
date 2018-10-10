@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+/* base settings */ 
+body{
+    background-color: #4aaaa5; 
+    background-image: url("background_image_tic-tac-toe.png");
+    background-repeat: repeat;  
+    display: block;
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    padding: 0px; 
+    text-align: left; 
+}
+
+/* heading */ 
+
+.header {
+  margin: 0;
+  width: 100%; 
+  height: 20%; 
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px; 
+  line-height: 12px;
+  border-radius: 4px;
+}
+
+.header a.name {
+  background-color: #4aaaa5;  
+  padding: 5px; 
+  border-top: 70px; 
+  position: relative;  
+  left: 90px;
+  font-size: 30px; 
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
+  position: relative;  
+  right: 90px;
+}
+
+/* about me */
+.about{
+    background-color: #ffffff;
+    border-color: #dddddd; 
+    margin-top: 20px; 
+    margin-left: 100px; 
+    width: 83%;
+    position: relative;
+    color: #777; 
+    box-align: center;
+    text-align: left; 
+    padding: 5px; 
+    line-height: 1.4; 
+}
+
+h1{
+    color: #4aaaa5; 
+}
+
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    padding: 3px; 
+    border-top-width: thick; 
+    text-align: center;
+}
