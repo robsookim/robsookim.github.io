@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Tinos', serif; */
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 18px;
+  line-height: 34px;
+  color: #777777;
+  background: url("../images/background.png");
+  /* background-color: #777777; */ 
+}
+
+/* landing page */ 
+.jumbotron {
+  width: 900px; 
+  text-align: center; 
+  margin: 150px;
+  background: #EEF1F8;
+}
+.lead{
+  padding: 5px; 
+}
+.btn btn-primary btn-lg{
+  background: #C8DCFF; 
+  color: darkolivegreen; 
+}
+
+
+/* footer */
+
+footer {
+  /* padding: 30px 0; */
+  clear: both;
+  font-size: 12px;
+  color: darkolivegreen; 
+  text-align: center;
+  /* background: #B1BDE8;
+  background: #B6D9FF; */
+  background: #E5E4F8; 
+  border-top: 5px solid #8891B2;
+  height: 40px;
+}
+
+/* h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eeeeee;
+} */
+ 

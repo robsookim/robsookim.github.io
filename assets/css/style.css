@@ -1,15 +1,20 @@
 body {
-  font-family: 'Tinos', serif; 
-  /* font-family: 'Quicksand', sans-serif; */ 
+  /* font-family: 'Tinos', serif; */
+  font-family: 'Quicksand', sans-serif; 
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/Dinosaur-pattern-grid-marie-gardeski_7_720.jpg");
+  background: url("../images/background.png"); 
+  /* background-color: #777777; */ 
 }
 
 * {
   box-sizing: border-box;
 }
+
+
+
+
 
 /* general */
 
@@ -20,6 +25,11 @@ body {
   clear: both;
 }
 
+
+
+
+
+/* 
 h1,
 h2,
 h3,
@@ -49,7 +59,12 @@ h1 {
 h2,
 h3 {
   font-size: 22px;
-}
+} 
+*/
+
+
+
+
 
 /* header */
 
@@ -67,15 +82,15 @@ h3 {
 #logo {
   float: left;
   width: 250px;
-  height: 90px;
+  height: 70px;
   font-family: 'Tinos', serif; 
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #C8C2F8;
 }
 
 nav {
@@ -97,28 +112,34 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+
+
+
+
 /* footer */
 
 footer {
-  padding: 30px 0;
+  /* padding: 30px 0; */
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
+  color: darkolivegreen; 
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
-  height: 50px;
+  /* background: #B1BDE8;
+  background: #B6D9FF; */
+  background: #E5E4F8; 
+  border-top: 5px solid #8891B2;
+  height: 40px;
 }
 
-h3, h2 {
+/* h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
-}
+} */
+ 
 
-/* landing page */ 
+
 
 
 /* about page */
@@ -137,6 +158,10 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
+
+
+
+
 
 /* portfolio page */
 
@@ -180,6 +205,10 @@ h3, h2 {
   margin-right: 25px;
 }
 
+
+
+
+
 /* contact page */
 
 #contact-form ul {
@@ -216,6 +245,6 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #C8C2F8;
   border: 0 none;
 }
